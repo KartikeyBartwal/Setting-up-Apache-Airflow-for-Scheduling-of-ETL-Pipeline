@@ -1,0 +1,1814 @@
+[2024-09-20 03:00:28,782] {scheduler_job.py:182} INFO - Started process (PID=2080) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:00:28,783] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:00:28,784] {logging_mixin.py:104} INFO - [2024-09-20 03:00:28,784] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:00:28,788] {logging_mixin.py:104} INFO - [2024-09-20 03:00:28,786] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    'start_date' : datetime( 2024 , 9 , 20),
+NameError: name 'datetime' is not defined
+[2024-09-20 03:00:28,789] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:00:28,818] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.040 seconds
+[2024-09-20 03:00:59,274] {scheduler_job.py:182} INFO - Started process (PID=2107) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:00:59,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:00:59,278] {logging_mixin.py:104} INFO - [2024-09-20 03:00:59,277] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:00:59,282] {logging_mixin.py:104} INFO - [2024-09-20 03:00:59,281] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    'start_date' : datetime( 2024 , 9 , 20),
+NameError: name 'datetime' is not defined
+[2024-09-20 03:00:59,283] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:00:59,318] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.047 seconds
+[2024-09-20 03:01:29,531] {scheduler_job.py:182} INFO - Started process (PID=2134) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:01:29,532] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:01:29,533] {logging_mixin.py:104} INFO - [2024-09-20 03:01:29,533] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:01:29,535] {logging_mixin.py:104} INFO - [2024-09-20 03:01:29,534] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    'start_date' : datetime( 2024 , 9 , 20),
+NameError: name 'datetime' is not defined
+[2024-09-20 03:01:29,535] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:01:29,553] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.025 seconds
+[2024-09-20 03:02:00,032] {scheduler_job.py:182} INFO - Started process (PID=2161) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:02:00,032] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:02:00,033] {logging_mixin.py:104} INFO - [2024-09-20 03:02:00,033] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:02:00,035] {logging_mixin.py:104} INFO - [2024-09-20 03:02:00,034] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 6, in <module>
+    'start_date' : datetime( 2024 , 9 , 20),
+NameError: name 'datetime' is not defined
+[2024-09-20 03:02:00,035] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:02:00,058] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.029 seconds
+[2024-09-20 03:02:30,225] {scheduler_job.py:182} INFO - Started process (PID=2188) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:02:30,226] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:02:30,227] {logging_mixin.py:104} INFO - [2024-09-20 03:02:30,227] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:02:30,234] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:02:30,256] {logging_mixin.py:104} INFO - [2024-09-20 03:02:30,256] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:02:30,266] {logging_mixin.py:104} INFO - [2024-09-20 03:02:30,266] {dag.py:1837} INFO - Creating ORM DAG for fetch_and_store_amazon_books
+[2024-09-20 03:02:30,272] {logging_mixin.py:104} INFO - [2024-09-20 03:02:30,272] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:02:30,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.064 seconds
+[2024-09-20 03:03:00,898] {scheduler_job.py:182} INFO - Started process (PID=2215) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:03:00,899] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:03:00,901] {logging_mixin.py:104} INFO - [2024-09-20 03:03:00,900] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:03:00,908] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:03:00,936] {logging_mixin.py:104} INFO - [2024-09-20 03:03:00,935] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:03:00,955] {logging_mixin.py:104} INFO - [2024-09-20 03:03:00,955] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:03:00,969] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.075 seconds
+[2024-09-20 03:03:31,041] {scheduler_job.py:182} INFO - Started process (PID=2242) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:03:31,044] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:03:31,045] {logging_mixin.py:104} INFO - [2024-09-20 03:03:31,045] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:03:31,067] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:03:31,144] {logging_mixin.py:104} INFO - [2024-09-20 03:03:31,143] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:03:31,176] {logging_mixin.py:104} INFO - [2024-09-20 03:03:31,176] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:03:31,197] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.165 seconds
+[2024-09-20 03:04:01,538] {scheduler_job.py:182} INFO - Started process (PID=2266) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:04:01,539] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:04:01,540] {logging_mixin.py:104} INFO - [2024-09-20 03:04:01,540] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:04:01,547] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:04:01,567] {logging_mixin.py:104} INFO - [2024-09-20 03:04:01,567] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:04:01,585] {logging_mixin.py:104} INFO - [2024-09-20 03:04:01,585] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:04:01,595] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.060 seconds
+[2024-09-20 03:04:32,444] {scheduler_job.py:182} INFO - Started process (PID=2293) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:04:32,445] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:04:32,445] {logging_mixin.py:104} INFO - [2024-09-20 03:04:32,445] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:04:32,453] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:04:32,488] {logging_mixin.py:104} INFO - [2024-09-20 03:04:32,488] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:04:32,517] {logging_mixin.py:104} INFO - [2024-09-20 03:04:32,517] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:04:32,535] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.093 seconds
+[2024-09-20 03:05:03,472] {scheduler_job.py:182} INFO - Started process (PID=2322) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:05:03,477] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:05:03,480] {logging_mixin.py:104} INFO - [2024-09-20 03:05:03,479] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:05:03,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:05:03,585] {logging_mixin.py:104} INFO - [2024-09-20 03:05:03,584] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:05:03,649] {logging_mixin.py:104} INFO - [2024-09-20 03:05:03,649] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:05:03,680] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.218 seconds
+[2024-09-20 03:05:34,609] {scheduler_job.py:182} INFO - Started process (PID=2349) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:05:34,610] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:05:34,610] {logging_mixin.py:104} INFO - [2024-09-20 03:05:34,610] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:05:34,617] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:05:34,650] {logging_mixin.py:104} INFO - [2024-09-20 03:05:34,649] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:05:34,678] {logging_mixin.py:104} INFO - [2024-09-20 03:05:34,678] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:05:34,687] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.081 seconds
+[2024-09-20 03:06:05,526] {scheduler_job.py:182} INFO - Started process (PID=2376) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:06:05,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:06:05,530] {logging_mixin.py:104} INFO - [2024-09-20 03:06:05,529] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:06:05,544] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:06:05,572] {logging_mixin.py:104} INFO - [2024-09-20 03:06:05,572] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:06:05,593] {logging_mixin.py:104} INFO - [2024-09-20 03:06:05,593] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:06:05,608] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2024-09-20 03:06:36,148] {scheduler_job.py:182} INFO - Started process (PID=2403) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:06:36,149] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:06:36,149] {logging_mixin.py:104} INFO - [2024-09-20 03:06:36,149] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:06:36,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:06:36,172] {logging_mixin.py:104} INFO - [2024-09-20 03:06:36,172] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:06:36,184] {logging_mixin.py:104} INFO - [2024-09-20 03:06:36,184] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:06:36,193] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.047 seconds
+[2024-09-20 03:07:06,574] {scheduler_job.py:182} INFO - Started process (PID=2430) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:07:06,575] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:07:06,576] {logging_mixin.py:104} INFO - [2024-09-20 03:07:06,576] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:07:06,582] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:07:06,604] {logging_mixin.py:104} INFO - [2024-09-20 03:07:06,604] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:07:06,618] {logging_mixin.py:104} INFO - [2024-09-20 03:07:06,618] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:07:06,627] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.056 seconds
+[2024-09-20 03:07:36,834] {scheduler_job.py:182} INFO - Started process (PID=2457) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:07:36,835] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:07:36,837] {logging_mixin.py:104} INFO - [2024-09-20 03:07:36,836] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:07:36,847] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:07:36,872] {logging_mixin.py:104} INFO - [2024-09-20 03:07:36,872] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:07:36,892] {logging_mixin.py:104} INFO - [2024-09-20 03:07:36,892] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:07:36,903] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.073 seconds
+[2024-09-20 03:08:07,306] {scheduler_job.py:182} INFO - Started process (PID=2484) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:08:07,309] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:08:07,310] {logging_mixin.py:104} INFO - [2024-09-20 03:08:07,310] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:08:07,317] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:08:07,343] {logging_mixin.py:104} INFO - [2024-09-20 03:08:07,343] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:08:07,360] {logging_mixin.py:104} INFO - [2024-09-20 03:08:07,360] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:08:07,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.069 seconds
+[2024-09-20 03:08:38,048] {scheduler_job.py:182} INFO - Started process (PID=2511) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:08:38,049] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:08:38,050] {logging_mixin.py:104} INFO - [2024-09-20 03:08:38,050] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:08:38,063] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:08:38,095] {logging_mixin.py:104} INFO - [2024-09-20 03:08:38,094] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:08:38,117] {logging_mixin.py:104} INFO - [2024-09-20 03:08:38,117] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:08:38,129] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.086 seconds
+[2024-09-20 03:09:08,526] {scheduler_job.py:182} INFO - Started process (PID=2538) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:09:08,529] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:09:08,530] {logging_mixin.py:104} INFO - [2024-09-20 03:09:08,530] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:09:08,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:09:08,574] {logging_mixin.py:104} INFO - [2024-09-20 03:09:08,574] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:09:08,597] {logging_mixin.py:104} INFO - [2024-09-20 03:09:08,597] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:09:08,617] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2024-09-20 03:09:39,223] {scheduler_job.py:182} INFO - Started process (PID=2565) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:09:39,225] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:09:39,226] {logging_mixin.py:104} INFO - [2024-09-20 03:09:39,225] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:09:39,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:09:39,284] {logging_mixin.py:104} INFO - [2024-09-20 03:09:39,283] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:09:39,298] {logging_mixin.py:104} INFO - [2024-09-20 03:09:39,298] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:09:39,306] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.087 seconds
+[2024-09-20 03:10:09,785] {scheduler_job.py:182} INFO - Started process (PID=2592) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:10:09,787] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:10:09,787] {logging_mixin.py:104} INFO - [2024-09-20 03:10:09,787] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:10:09,799] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:10:09,838] {logging_mixin.py:104} INFO - [2024-09-20 03:10:09,838] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:10:09,861] {logging_mixin.py:104} INFO - [2024-09-20 03:10:09,860] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:10:09,871] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.091 seconds
+[2024-09-20 03:10:40,373] {scheduler_job.py:182} INFO - Started process (PID=2619) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:10:40,374] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:10:40,375] {logging_mixin.py:104} INFO - [2024-09-20 03:10:40,375] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:10:40,388] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:10:40,422] {logging_mixin.py:104} INFO - [2024-09-20 03:10:40,422] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:10:40,446] {logging_mixin.py:104} INFO - [2024-09-20 03:10:40,446] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:10:40,459] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.091 seconds
+[2024-09-20 03:11:10,934] {scheduler_job.py:182} INFO - Started process (PID=2646) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:11:10,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:11:10,937] {logging_mixin.py:104} INFO - [2024-09-20 03:11:10,936] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:11:10,947] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:11:10,978] {logging_mixin.py:104} INFO - [2024-09-20 03:11:10,978] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:11:10,998] {logging_mixin.py:104} INFO - [2024-09-20 03:11:10,998] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:11:11,010] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.080 seconds
+[2024-09-20 03:11:41,641] {scheduler_job.py:182} INFO - Started process (PID=2673) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:11:41,644] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:11:41,645] {logging_mixin.py:104} INFO - [2024-09-20 03:11:41,645] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:11:41,657] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:11:41,697] {logging_mixin.py:104} INFO - [2024-09-20 03:11:41,697] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:11:41,726] {logging_mixin.py:104} INFO - [2024-09-20 03:11:41,726] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:11:41,740] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.105 seconds
+[2024-09-20 03:12:12,406] {scheduler_job.py:182} INFO - Started process (PID=2700) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:12:12,407] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:12:12,408] {logging_mixin.py:104} INFO - [2024-09-20 03:12:12,408] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:12:12,419] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:12:12,457] {logging_mixin.py:104} INFO - [2024-09-20 03:12:12,456] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:12:12,481] {logging_mixin.py:104} INFO - [2024-09-20 03:12:12,481] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:12:12,494] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.094 seconds
+[2024-09-20 03:12:42,896] {scheduler_job.py:182} INFO - Started process (PID=2727) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:12:42,898] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:12:42,899] {logging_mixin.py:104} INFO - [2024-09-20 03:12:42,899] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:12:42,910] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:12:42,943] {logging_mixin.py:104} INFO - [2024-09-20 03:12:42,943] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:12:42,967] {logging_mixin.py:104} INFO - [2024-09-20 03:12:42,967] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:12:42,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.087 seconds
+[2024-09-20 03:13:13,350] {scheduler_job.py:182} INFO - Started process (PID=2754) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:13:13,352] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:13:13,353] {logging_mixin.py:104} INFO - [2024-09-20 03:13:13,353] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:13:13,365] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:13:13,397] {logging_mixin.py:104} INFO - [2024-09-20 03:13:13,396] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:13:13,413] {logging_mixin.py:104} INFO - [2024-09-20 03:13:13,413] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:13:13,422] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.077 seconds
+[2024-09-20 03:13:43,718] {scheduler_job.py:182} INFO - Started process (PID=2781) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:13:43,719] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:13:43,720] {logging_mixin.py:104} INFO - [2024-09-20 03:13:43,720] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:13:43,731] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:13:43,760] {logging_mixin.py:104} INFO - [2024-09-20 03:13:43,760] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:13:43,780] {logging_mixin.py:104} INFO - [2024-09-20 03:13:43,780] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:13:43,788] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.074 seconds
+[2024-09-20 03:14:14,196] {scheduler_job.py:182} INFO - Started process (PID=2808) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:14:14,199] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:14:14,201] {logging_mixin.py:104} INFO - [2024-09-20 03:14:14,201] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:14:14,218] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:14:14,256] {logging_mixin.py:104} INFO - [2024-09-20 03:14:14,255] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:14:14,282] {logging_mixin.py:104} INFO - [2024-09-20 03:14:14,282] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:14:14,294] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2024-09-20 03:14:44,756] {scheduler_job.py:182} INFO - Started process (PID=2835) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:14:44,758] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:14:44,758] {logging_mixin.py:104} INFO - [2024-09-20 03:14:44,758] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:14:44,769] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:14:44,795] {logging_mixin.py:104} INFO - [2024-09-20 03:14:44,795] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:14:44,815] {logging_mixin.py:104} INFO - [2024-09-20 03:14:44,815] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:14:44,827] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.074 seconds
+[2024-09-20 03:15:14,917] {scheduler_job.py:182} INFO - Started process (PID=2862) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:15:14,919] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:15:14,924] {logging_mixin.py:104} INFO - [2024-09-20 03:15:14,922] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:15:14,941] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:15:14,997] {logging_mixin.py:104} INFO - [2024-09-20 03:15:14,997] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:15:15,038] {logging_mixin.py:104} INFO - [2024-09-20 03:15:15,037] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:15:15,049] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.142 seconds
+[2024-09-20 03:15:45,206] {scheduler_job.py:182} INFO - Started process (PID=2889) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:15:45,207] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:15:45,208] {logging_mixin.py:104} INFO - [2024-09-20 03:15:45,208] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:15:45,223] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:15:45,266] {logging_mixin.py:104} INFO - [2024-09-20 03:15:45,265] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:15:45,306] {logging_mixin.py:104} INFO - [2024-09-20 03:15:45,306] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:15:45,319] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.120 seconds
+[2024-09-20 03:16:15,729] {scheduler_job.py:182} INFO - Started process (PID=2916) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:16:15,731] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:16:15,732] {logging_mixin.py:104} INFO - [2024-09-20 03:16:15,732] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:16:15,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:16:15,798] {logging_mixin.py:104} INFO - [2024-09-20 03:16:15,798] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:16:15,833] {logging_mixin.py:104} INFO - [2024-09-20 03:16:15,833] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:16:15,848] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.125 seconds
+[2024-09-20 03:16:45,941] {scheduler_job.py:182} INFO - Started process (PID=2943) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:16:45,946] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:16:45,948] {logging_mixin.py:104} INFO - [2024-09-20 03:16:45,947] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:16:45,968] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:16:46,006] {logging_mixin.py:104} INFO - [2024-09-20 03:16:46,006] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:16:46,049] {logging_mixin.py:104} INFO - [2024-09-20 03:16:46,049] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:16:46,071] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.139 seconds
+[2024-09-20 03:17:16,228] {scheduler_job.py:182} INFO - Started process (PID=2970) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:17:16,231] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:17:16,234] {logging_mixin.py:104} INFO - [2024-09-20 03:17:16,233] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:17:16,260] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:17:16,303] {logging_mixin.py:104} INFO - [2024-09-20 03:17:16,303] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:17:16,353] {logging_mixin.py:104} INFO - [2024-09-20 03:17:16,353] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:17:16,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.150 seconds
+[2024-09-20 03:17:46,521] {scheduler_job.py:182} INFO - Started process (PID=2997) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:17:46,524] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:17:46,527] {logging_mixin.py:104} INFO - [2024-09-20 03:17:46,526] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:17:46,543] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:17:46,583] {logging_mixin.py:104} INFO - [2024-09-20 03:17:46,582] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:17:46,615] {logging_mixin.py:104} INFO - [2024-09-20 03:17:46,614] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:17:46,637] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.122 seconds
+[2024-09-20 03:18:17,270] {scheduler_job.py:182} INFO - Started process (PID=3024) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:18:17,270] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:18:17,271] {logging_mixin.py:104} INFO - [2024-09-20 03:18:17,271] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:18:17,276] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:18:17,291] {logging_mixin.py:104} INFO - [2024-09-20 03:18:17,291] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:18:17,302] {logging_mixin.py:104} INFO - [2024-09-20 03:18:17,302] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:18:17,309] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.042 seconds
+[2024-09-20 03:18:47,765] {scheduler_job.py:182} INFO - Started process (PID=3051) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:18:47,770] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:18:47,771] {logging_mixin.py:104} INFO - [2024-09-20 03:18:47,771] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:18:47,789] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:18:47,825] {logging_mixin.py:104} INFO - [2024-09-20 03:18:47,825] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:18:47,855] {logging_mixin.py:104} INFO - [2024-09-20 03:18:47,855] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:18:47,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.115 seconds
+[2024-09-20 03:19:18,342] {scheduler_job.py:182} INFO - Started process (PID=3078) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:19:18,344] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:19:18,346] {logging_mixin.py:104} INFO - [2024-09-20 03:19:18,345] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:19:18,371] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:19:18,438] {logging_mixin.py:104} INFO - [2024-09-20 03:19:18,438] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:19:18,472] {logging_mixin.py:104} INFO - [2024-09-20 03:19:18,472] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:19:18,486] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.150 seconds
+[2024-09-20 03:19:49,153] {scheduler_job.py:182} INFO - Started process (PID=3105) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:19:49,155] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:19:49,157] {logging_mixin.py:104} INFO - [2024-09-20 03:19:49,156] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:19:49,176] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:19:49,215] {logging_mixin.py:104} INFO - [2024-09-20 03:19:49,215] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:19:49,228] {logging_mixin.py:104} INFO - [2024-09-20 03:19:49,228] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:19:49,236] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.089 seconds
+[2024-09-20 03:20:19,813] {scheduler_job.py:182} INFO - Started process (PID=3132) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:20:19,815] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:20:19,817] {logging_mixin.py:104} INFO - [2024-09-20 03:20:19,816] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:20:19,833] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:20:19,872] {logging_mixin.py:104} INFO - [2024-09-20 03:20:19,872] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:20:19,895] {logging_mixin.py:104} INFO - [2024-09-20 03:20:19,894] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:20:19,910] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2024-09-20 03:20:50,280] {scheduler_job.py:182} INFO - Started process (PID=3159) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:20:50,281] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:20:50,282] {logging_mixin.py:104} INFO - [2024-09-20 03:20:50,282] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:20:50,293] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:20:50,320] {logging_mixin.py:104} INFO - [2024-09-20 03:20:50,320] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:20:50,334] {logging_mixin.py:104} INFO - [2024-09-20 03:20:50,334] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:20:50,345] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.070 seconds
+[2024-09-20 03:21:21,063] {scheduler_job.py:182} INFO - Started process (PID=3186) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:21:21,066] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:21:21,068] {logging_mixin.py:104} INFO - [2024-09-20 03:21:21,068] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:21:21,074] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:21:21,103] {logging_mixin.py:104} INFO - [2024-09-20 03:21:21,103] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:21:21,146] {logging_mixin.py:104} INFO - [2024-09-20 03:21:21,146] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:21:21,163] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.110 seconds
+[2024-09-20 03:21:52,114] {scheduler_job.py:182} INFO - Started process (PID=3213) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:21:52,116] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:21:52,117] {logging_mixin.py:104} INFO - [2024-09-20 03:21:52,117] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:21:52,133] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:21:52,168] {logging_mixin.py:104} INFO - [2024-09-20 03:21:52,168] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:21:52,192] {logging_mixin.py:104} INFO - [2024-09-20 03:21:52,192] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:21:52,203] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.092 seconds
+[2024-09-20 03:22:22,637] {scheduler_job.py:182} INFO - Started process (PID=3240) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:22:22,639] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:22:22,640] {logging_mixin.py:104} INFO - [2024-09-20 03:22:22,640] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:22:22,652] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:22:22,682] {logging_mixin.py:104} INFO - [2024-09-20 03:22:22,681] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:22:22,705] {logging_mixin.py:104} INFO - [2024-09-20 03:22:22,704] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:22:22,719] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.086 seconds
+[2024-09-20 03:22:53,200] {scheduler_job.py:182} INFO - Started process (PID=3267) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:22:53,203] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:22:53,204] {logging_mixin.py:104} INFO - [2024-09-20 03:22:53,204] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:22:53,219] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:22:53,260] {logging_mixin.py:104} INFO - [2024-09-20 03:22:53,260] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:22:53,292] {logging_mixin.py:104} INFO - [2024-09-20 03:22:53,292] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:22:53,303] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.109 seconds
+[2024-09-20 03:23:23,625] {scheduler_job.py:182} INFO - Started process (PID=3294) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:23:23,626] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:23:23,626] {logging_mixin.py:104} INFO - [2024-09-20 03:23:23,626] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:23:23,631] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:23:23,648] {logging_mixin.py:104} INFO - [2024-09-20 03:23:23,647] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:23:23,660] {logging_mixin.py:104} INFO - [2024-09-20 03:23:23,660] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:23:23,667] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.044 seconds
+[2024-09-20 03:23:54,235] {scheduler_job.py:182} INFO - Started process (PID=3321) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:23:54,236] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:23:54,238] {logging_mixin.py:104} INFO - [2024-09-20 03:23:54,237] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:23:54,254] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:23:54,283] {logging_mixin.py:104} INFO - [2024-09-20 03:23:54,282] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 03:23:54,302] {logging_mixin.py:104} INFO - [2024-09-20 03:23:54,302] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to None
+[2024-09-20 03:23:54,310] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.079 seconds
+[2024-09-20 03:24:24,732] {scheduler_job.py:182} INFO - Started process (PID=3348) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:24:24,733] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:24:24,734] {logging_mixin.py:104} INFO - [2024-09-20 03:24:24,734] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:24:25,678] {logging_mixin.py:104} INFO - [2024-09-20 03:24:25,677] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:24:25,678] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:24:25,689] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.959 seconds
+[2024-09-20 03:24:56,070] {scheduler_job.py:182} INFO - Started process (PID=3376) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:24:56,071] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:24:56,072] {logging_mixin.py:104} INFO - [2024-09-20 03:24:56,072] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:24:56,434] {logging_mixin.py:104} INFO - [2024-09-20 03:24:56,434] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:24:56,435] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:24:56,450] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.386 seconds
+[2024-09-20 03:25:27,236] {scheduler_job.py:182} INFO - Started process (PID=3403) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:25:27,238] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:25:27,240] {logging_mixin.py:104} INFO - [2024-09-20 03:25:27,239] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:25:27,631] {logging_mixin.py:104} INFO - [2024-09-20 03:25:27,630] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:25:27,631] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:25:27,650] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.419 seconds
+[2024-09-20 03:25:57,869] {scheduler_job.py:182} INFO - Started process (PID=3430) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:25:57,870] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:25:57,871] {logging_mixin.py:104} INFO - [2024-09-20 03:25:57,871] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:25:58,152] {logging_mixin.py:104} INFO - [2024-09-20 03:25:58,152] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:25:58,153] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:25:58,165] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.301 seconds
+[2024-09-20 03:26:28,979] {scheduler_job.py:182} INFO - Started process (PID=3457) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:26:28,981] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:26:28,982] {logging_mixin.py:104} INFO - [2024-09-20 03:26:28,981] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:26:29,250] {logging_mixin.py:104} INFO - [2024-09-20 03:26:29,250] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:26:29,251] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:26:29,262] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.287 seconds
+[2024-09-20 03:26:59,353] {scheduler_job.py:182} INFO - Started process (PID=3484) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:26:59,355] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:26:59,356] {logging_mixin.py:104} INFO - [2024-09-20 03:26:59,355] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:26:59,751] {logging_mixin.py:104} INFO - [2024-09-20 03:26:59,750] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:26:59,751] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:26:59,763] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.414 seconds
+[2024-09-20 03:27:30,706] {scheduler_job.py:182} INFO - Started process (PID=3511) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:27:30,707] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:27:30,708] {logging_mixin.py:104} INFO - [2024-09-20 03:27:30,708] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:27:30,991] {logging_mixin.py:104} INFO - [2024-09-20 03:27:30,990] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:27:30,991] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:27:31,003] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.301 seconds
+[2024-09-20 03:28:01,935] {scheduler_job.py:182} INFO - Started process (PID=3538) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:28:01,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:28:01,937] {logging_mixin.py:104} INFO - [2024-09-20 03:28:01,937] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:28:02,210] {logging_mixin.py:104} INFO - [2024-09-20 03:28:02,209] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:28:02,210] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:28:02,223] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.292 seconds
+[2024-09-20 03:28:32,581] {scheduler_job.py:182} INFO - Started process (PID=3565) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:28:32,582] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:28:32,582] {logging_mixin.py:104} INFO - [2024-09-20 03:28:32,582] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:28:32,866] {logging_mixin.py:104} INFO - [2024-09-20 03:28:32,865] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:28:32,866] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:28:32,879] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.301 seconds
+[2024-09-20 03:29:03,196] {scheduler_job.py:182} INFO - Started process (PID=3592) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:29:03,198] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:29:03,199] {logging_mixin.py:104} INFO - [2024-09-20 03:29:03,199] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:29:03,618] {logging_mixin.py:104} INFO - [2024-09-20 03:29:03,617] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:29:03,618] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:29:03,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.445 seconds
+[2024-09-20 03:29:34,099] {scheduler_job.py:182} INFO - Started process (PID=3619) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:29:34,101] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:29:34,102] {logging_mixin.py:104} INFO - [2024-09-20 03:29:34,101] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:29:34,789] {logging_mixin.py:104} INFO - [2024-09-20 03:29:34,788] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:29:34,789] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:29:34,803] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.711 seconds
+[2024-09-20 03:30:05,498] {scheduler_job.py:182} INFO - Started process (PID=3646) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:30:05,500] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:30:05,501] {logging_mixin.py:104} INFO - [2024-09-20 03:30:05,501] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:30:05,866] {logging_mixin.py:104} INFO - [2024-09-20 03:30:05,866] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:30:05,867] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:30:05,889] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.397 seconds
+[2024-09-20 03:30:36,068] {scheduler_job.py:182} INFO - Started process (PID=3673) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:30:36,070] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:30:36,071] {logging_mixin.py:104} INFO - [2024-09-20 03:30:36,071] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:30:36,552] {logging_mixin.py:104} INFO - [2024-09-20 03:30:36,551] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:30:36,552] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:30:36,567] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.507 seconds
+[2024-09-20 03:31:06,642] {scheduler_job.py:182} INFO - Started process (PID=3700) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:31:06,643] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:31:06,644] {logging_mixin.py:104} INFO - [2024-09-20 03:31:06,644] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:31:07,034] {logging_mixin.py:104} INFO - [2024-09-20 03:31:07,034] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:31:07,035] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:31:07,050] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.413 seconds
+[2024-09-20 03:31:37,149] {scheduler_job.py:182} INFO - Started process (PID=3727) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:31:37,151] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:31:37,153] {logging_mixin.py:104} INFO - [2024-09-20 03:31:37,152] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:31:37,546] {logging_mixin.py:104} INFO - [2024-09-20 03:31:37,544] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:31:37,547] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:31:37,563] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.420 seconds
+[2024-09-20 03:32:07,805] {scheduler_job.py:182} INFO - Started process (PID=3754) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:32:07,819] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:32:07,827] {logging_mixin.py:104} INFO - [2024-09-20 03:32:07,825] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:32:08,667] {logging_mixin.py:104} INFO - [2024-09-20 03:32:08,666] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:32:08,667] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:32:08,687] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.937 seconds
+[2024-09-20 03:32:39,443] {scheduler_job.py:182} INFO - Started process (PID=3781) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:32:39,444] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:32:39,444] {logging_mixin.py:104} INFO - [2024-09-20 03:32:39,444] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:32:39,788] {logging_mixin.py:104} INFO - [2024-09-20 03:32:39,787] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:32:39,788] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:32:39,805] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.366 seconds
+[2024-09-20 03:33:10,807] {scheduler_job.py:182} INFO - Started process (PID=3810) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:33:10,808] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:33:10,809] {logging_mixin.py:104} INFO - [2024-09-20 03:33:10,808] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:33:11,150] {logging_mixin.py:104} INFO - [2024-09-20 03:33:11,150] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:33:11,150] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:33:11,170] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.365 seconds
+[2024-09-20 03:33:41,497] {scheduler_job.py:182} INFO - Started process (PID=3837) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:33:41,499] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:33:41,499] {logging_mixin.py:104} INFO - [2024-09-20 03:33:41,499] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:33:41,891] {logging_mixin.py:104} INFO - [2024-09-20 03:33:41,891] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:33:41,892] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:33:41,903] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.411 seconds
+[2024-09-20 03:34:12,339] {scheduler_job.py:182} INFO - Started process (PID=3864) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:34:12,342] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:34:12,343] {logging_mixin.py:104} INFO - [2024-09-20 03:34:12,343] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:34:12,727] {logging_mixin.py:104} INFO - [2024-09-20 03:34:12,727] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:34:12,727] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:34:12,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.413 seconds
+[2024-09-20 03:34:43,338] {scheduler_job.py:182} INFO - Started process (PID=3891) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:34:43,339] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:34:43,340] {logging_mixin.py:104} INFO - [2024-09-20 03:34:43,340] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:34:43,717] {logging_mixin.py:104} INFO - [2024-09-20 03:34:43,716] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:34:43,717] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:34:43,735] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.400 seconds
+[2024-09-20 03:35:14,319] {scheduler_job.py:182} INFO - Started process (PID=3918) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:35:14,320] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:35:14,320] {logging_mixin.py:104} INFO - [2024-09-20 03:35:14,320] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:35:14,570] {logging_mixin.py:104} INFO - [2024-09-20 03:35:14,570] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:35:14,571] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:35:14,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.265 seconds
+[2024-09-20 03:35:45,151] {scheduler_job.py:182} INFO - Started process (PID=3945) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:35:45,152] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:35:45,153] {logging_mixin.py:104} INFO - [2024-09-20 03:35:45,152] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:35:45,502] {logging_mixin.py:104} INFO - [2024-09-20 03:35:45,501] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:35:45,502] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:35:45,519] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.374 seconds
+[2024-09-20 03:36:16,272] {scheduler_job.py:182} INFO - Started process (PID=3972) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:36:16,273] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:36:16,274] {logging_mixin.py:104} INFO - [2024-09-20 03:36:16,274] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:36:16,549] {logging_mixin.py:104} INFO - [2024-09-20 03:36:16,548] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:36:16,549] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:36:16,562] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.294 seconds
+[2024-09-20 03:36:46,635] {scheduler_job.py:182} INFO - Started process (PID=3999) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:36:46,636] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:36:46,637] {logging_mixin.py:104} INFO - [2024-09-20 03:36:46,637] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:36:46,907] {logging_mixin.py:104} INFO - [2024-09-20 03:36:46,907] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:36:46,908] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:36:46,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.290 seconds
+[2024-09-20 03:37:17,831] {scheduler_job.py:182} INFO - Started process (PID=4026) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:37:17,832] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:37:17,833] {logging_mixin.py:104} INFO - [2024-09-20 03:37:17,833] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:37:18,115] {logging_mixin.py:104} INFO - [2024-09-20 03:37:18,115] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:37:18,116] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:37:18,127] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.301 seconds
+[2024-09-20 03:37:48,197] {scheduler_job.py:182} INFO - Started process (PID=4053) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:37:48,199] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:37:48,200] {logging_mixin.py:104} INFO - [2024-09-20 03:37:48,200] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:37:48,479] {logging_mixin.py:104} INFO - [2024-09-20 03:37:48,478] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:37:48,479] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:37:48,492] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.299 seconds
+[2024-09-20 03:38:19,457] {scheduler_job.py:182} INFO - Started process (PID=4082) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:38:19,459] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:38:19,460] {logging_mixin.py:104} INFO - [2024-09-20 03:38:19,460] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:38:19,736] {logging_mixin.py:104} INFO - [2024-09-20 03:38:19,736] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:38:19,736] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:38:19,749] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.295 seconds
+[2024-09-20 03:38:49,919] {scheduler_job.py:182} INFO - Started process (PID=4109) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:38:49,921] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:38:49,922] {logging_mixin.py:104} INFO - [2024-09-20 03:38:49,922] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:38:50,432] {logging_mixin.py:104} INFO - [2024-09-20 03:38:50,432] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:38:50,433] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:38:50,464] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.550 seconds
+[2024-09-20 03:39:21,197] {scheduler_job.py:182} INFO - Started process (PID=4136) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:39:21,199] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:39:21,200] {logging_mixin.py:104} INFO - [2024-09-20 03:39:21,200] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:39:21,624] {logging_mixin.py:104} INFO - [2024-09-20 03:39:21,623] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:39:21,625] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:39:21,642] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.451 seconds
+[2024-09-20 03:39:52,611] {scheduler_job.py:182} INFO - Started process (PID=4163) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:39:52,612] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:39:52,612] {logging_mixin.py:104} INFO - [2024-09-20 03:39:52,612] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:39:52,979] {logging_mixin.py:104} INFO - [2024-09-20 03:39:52,978] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:39:52,979] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:39:52,995] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.386 seconds
+[2024-09-20 03:40:23,137] {scheduler_job.py:182} INFO - Started process (PID=4190) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:40:23,139] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:40:23,144] {logging_mixin.py:104} INFO - [2024-09-20 03:40:23,144] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:40:23,650] {logging_mixin.py:104} INFO - [2024-09-20 03:40:23,649] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:40:23,650] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:40:23,669] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.540 seconds
+[2024-09-20 03:40:54,609] {scheduler_job.py:182} INFO - Started process (PID=4217) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:40:54,610] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:40:54,610] {logging_mixin.py:104} INFO - [2024-09-20 03:40:54,610] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:40:54,953] {logging_mixin.py:104} INFO - [2024-09-20 03:40:54,952] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:40:54,953] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:40:54,969] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.362 seconds
+[2024-09-20 03:41:25,428] {scheduler_job.py:182} INFO - Started process (PID=4244) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:41:25,429] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:41:25,430] {logging_mixin.py:104} INFO - [2024-09-20 03:41:25,430] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:41:25,767] {logging_mixin.py:104} INFO - [2024-09-20 03:41:25,766] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:41:25,768] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:41:25,782] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.357 seconds
+[2024-09-20 03:41:56,359] {scheduler_job.py:182} INFO - Started process (PID=4272) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:41:56,360] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:41:56,360] {logging_mixin.py:104} INFO - [2024-09-20 03:41:56,360] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:41:56,722] {logging_mixin.py:104} INFO - [2024-09-20 03:41:56,721] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:41:56,722] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:41:56,736] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.382 seconds
+[2024-09-20 03:42:26,981] {scheduler_job.py:182} INFO - Started process (PID=4299) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:42:26,981] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:42:26,982] {logging_mixin.py:104} INFO - [2024-09-20 03:42:26,982] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:42:27,350] {logging_mixin.py:104} INFO - [2024-09-20 03:42:27,349] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:42:27,351] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:42:27,372] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.394 seconds
+[2024-09-20 03:42:58,262] {scheduler_job.py:182} INFO - Started process (PID=4326) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:42:58,264] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:42:58,265] {logging_mixin.py:104} INFO - [2024-09-20 03:42:58,264] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:42:58,649] {logging_mixin.py:104} INFO - [2024-09-20 03:42:58,648] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:42:58,651] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:42:58,669] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.412 seconds
+[2024-09-20 03:43:28,828] {scheduler_job.py:182} INFO - Started process (PID=4353) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:43:28,841] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:43:28,851] {logging_mixin.py:104} INFO - [2024-09-20 03:43:28,849] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:43:33,521] {logging_mixin.py:104} INFO - [2024-09-20 03:43:33,520] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:43:33,522] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:43:33,540] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 4.750 seconds
+[2024-09-20 03:44:04,536] {scheduler_job.py:182} INFO - Started process (PID=4389) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:44:04,538] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:44:04,540] {logging_mixin.py:104} INFO - [2024-09-20 03:44:04,540] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:44:04,973] {logging_mixin.py:104} INFO - [2024-09-20 03:44:04,973] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:44:04,974] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:44:04,994] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.464 seconds
+[2024-09-20 03:44:35,759] {scheduler_job.py:182} INFO - Started process (PID=4416) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:44:35,760] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:44:35,761] {logging_mixin.py:104} INFO - [2024-09-20 03:44:35,761] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:44:36,181] {logging_mixin.py:104} INFO - [2024-09-20 03:44:36,179] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:44:36,183] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:44:36,212] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.457 seconds
+[2024-09-20 03:45:06,427] {scheduler_job.py:182} INFO - Started process (PID=4443) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:45:06,442] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:45:06,451] {logging_mixin.py:104} INFO - [2024-09-20 03:45:06,449] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:45:10,629] {logging_mixin.py:104} INFO - [2024-09-20 03:45:10,627] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:45:10,630] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:45:10,676] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 4.302 seconds
+[2024-09-20 03:45:41,018] {scheduler_job.py:182} INFO - Started process (PID=4472) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:45:41,020] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:45:41,020] {logging_mixin.py:104} INFO - [2024-09-20 03:45:41,020] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:45:41,269] {logging_mixin.py:104} INFO - [2024-09-20 03:45:41,269] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:45:41,270] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:45:41,280] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.267 seconds
+[2024-09-20 03:54:19,139] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:54:19,142] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:54:19,144] {logging_mixin.py:104} INFO - [2024-09-20 03:54:19,143] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:54:19,600] {logging_mixin.py:104} INFO - [2024-09-20 03:54:19,599] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:54:19,601] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:54:19,632] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.498 seconds
+[2024-09-20 03:54:50,376] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:54:50,377] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:54:50,377] {logging_mixin.py:104} INFO - [2024-09-20 03:54:50,377] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:54:50,640] {logging_mixin.py:104} INFO - [2024-09-20 03:54:50,639] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:54:50,641] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:54:50,655] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.281 seconds
+[2024-09-20 03:55:21,719] {scheduler_job.py:182} INFO - Started process (PID=97) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:55:21,720] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:55:21,720] {logging_mixin.py:104} INFO - [2024-09-20 03:55:21,720] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:55:21,940] {logging_mixin.py:104} INFO - [2024-09-20 03:55:21,939] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:55:21,940] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:55:21,951] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.236 seconds
+[2024-09-20 03:55:52,643] {scheduler_job.py:182} INFO - Started process (PID=124) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:55:52,644] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:55:52,644] {logging_mixin.py:104} INFO - [2024-09-20 03:55:52,644] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:55:52,838] {logging_mixin.py:104} INFO - [2024-09-20 03:55:52,837] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:55:52,838] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:55:52,851] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.211 seconds
+[2024-09-20 03:56:23,619] {scheduler_job.py:182} INFO - Started process (PID=151) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:56:23,620] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:56:23,620] {logging_mixin.py:104} INFO - [2024-09-20 03:56:23,620] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:56:23,831] {logging_mixin.py:104} INFO - [2024-09-20 03:56:23,830] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:56:23,831] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:56:23,842] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.225 seconds
+[2024-09-20 03:56:54,601] {scheduler_job.py:182} INFO - Started process (PID=178) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:56:54,602] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:56:54,603] {logging_mixin.py:104} INFO - [2024-09-20 03:56:54,603] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:56:54,802] {logging_mixin.py:104} INFO - [2024-09-20 03:56:54,801] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:56:54,802] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:56:54,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.214 seconds
+[2024-09-20 03:57:25,527] {scheduler_job.py:182} INFO - Started process (PID=205) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:57:25,530] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:57:25,531] {logging_mixin.py:104} INFO - [2024-09-20 03:57:25,531] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:57:26,341] {logging_mixin.py:104} INFO - [2024-09-20 03:57:26,339] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:57:26,342] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:57:26,387] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.868 seconds
+[2024-09-20 03:57:56,618] {scheduler_job.py:182} INFO - Started process (PID=234) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:57:56,618] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:57:56,619] {logging_mixin.py:104} INFO - [2024-09-20 03:57:56,619] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:57:57,015] {logging_mixin.py:104} INFO - [2024-09-20 03:57:57,013] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:57:57,016] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:57:57,054] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.439 seconds
+[2024-09-20 03:58:27,588] {scheduler_job.py:182} INFO - Started process (PID=259) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:58:27,588] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:58:27,589] {logging_mixin.py:104} INFO - [2024-09-20 03:58:27,589] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:58:27,986] {logging_mixin.py:104} INFO - [2024-09-20 03:58:27,985] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:58:27,987] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:58:28,011] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.431 seconds
+[2024-09-20 03:58:58,141] {scheduler_job.py:182} INFO - Started process (PID=286) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:58:58,142] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:58:58,143] {logging_mixin.py:104} INFO - [2024-09-20 03:58:58,143] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:58:58,438] {logging_mixin.py:104} INFO - [2024-09-20 03:58:58,436] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:58:58,439] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:58:58,458] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.319 seconds
+[2024-09-20 03:59:28,708] {scheduler_job.py:182} INFO - Started process (PID=313) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:59:28,709] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:59:28,710] {logging_mixin.py:104} INFO - [2024-09-20 03:59:28,710] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:59:29,095] {logging_mixin.py:104} INFO - [2024-09-20 03:59:29,094] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:59:29,096] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:59:29,129] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.427 seconds
+[2024-09-20 03:59:59,579] {scheduler_job.py:182} INFO - Started process (PID=346) to work on /opt/airflow/dags/dag.py
+[2024-09-20 03:59:59,581] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 03:59:59,581] {logging_mixin.py:104} INFO - [2024-09-20 03:59:59,581] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 03:59:59,832] {logging_mixin.py:104} INFO - [2024-09-20 03:59:59,831] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 03:59:59,833] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 03:59:59,844] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.267 seconds
+[2024-09-20 04:00:30,044] {scheduler_job.py:182} INFO - Started process (PID=373) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:00:30,045] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:00:30,046] {logging_mixin.py:104} INFO - [2024-09-20 04:00:30,045] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:00:30,295] {logging_mixin.py:104} INFO - [2024-09-20 04:00:30,295] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:00:30,296] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:00:30,311] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.271 seconds
+[2024-09-20 04:01:01,146] {scheduler_job.py:182} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:01:01,148] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:01:01,150] {logging_mixin.py:104} INFO - [2024-09-20 04:01:01,150] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:01:01,485] {logging_mixin.py:104} INFO - [2024-09-20 04:01:01,485] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:01:01,485] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:01:01,510] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.367 seconds
+[2024-09-20 04:01:31,736] {scheduler_job.py:182} INFO - Started process (PID=429) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:01:31,739] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:01:31,741] {logging_mixin.py:104} INFO - [2024-09-20 04:01:31,741] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:01:32,008] {logging_mixin.py:104} INFO - [2024-09-20 04:01:32,008] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:01:32,009] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:01:32,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.294 seconds
+[2024-09-20 04:02:02,193] {scheduler_job.py:182} INFO - Started process (PID=457) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:02:02,194] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:02:02,195] {logging_mixin.py:104} INFO - [2024-09-20 04:02:02,195] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:02:02,440] {logging_mixin.py:104} INFO - [2024-09-20 04:02:02,439] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:02:02,440] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:02:02,454] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.263 seconds
+[2024-09-20 04:02:33,458] {scheduler_job.py:182} INFO - Started process (PID=484) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:02:33,459] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:02:33,461] {logging_mixin.py:104} INFO - [2024-09-20 04:02:33,460] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:02:33,724] {logging_mixin.py:104} INFO - [2024-09-20 04:02:33,723] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:02:33,725] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:02:33,748] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.295 seconds
+[2024-09-20 04:03:04,065] {scheduler_job.py:182} INFO - Started process (PID=509) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:03:04,067] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:03:04,069] {logging_mixin.py:104} INFO - [2024-09-20 04:03:04,068] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:03:04,322] {logging_mixin.py:104} INFO - [2024-09-20 04:03:04,321] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:03:04,322] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:03:04,335] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.273 seconds
+[2024-09-20 04:03:35,056] {scheduler_job.py:182} INFO - Started process (PID=537) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:03:35,057] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:03:35,057] {logging_mixin.py:104} INFO - [2024-09-20 04:03:35,057] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:03:35,526] {logging_mixin.py:104} INFO - [2024-09-20 04:03:35,523] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:03:35,528] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:03:35,564] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.513 seconds
+[2024-09-20 04:04:05,929] {scheduler_job.py:182} INFO - Started process (PID=565) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:04:05,929] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:04:05,930] {logging_mixin.py:104} INFO - [2024-09-20 04:04:05,930] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:04:06,203] {logging_mixin.py:104} INFO - [2024-09-20 04:04:06,202] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:04:06,203] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:04:06,216] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.289 seconds
+[2024-09-20 04:04:36,360] {scheduler_job.py:182} INFO - Started process (PID=592) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:04:36,361] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:04:36,361] {logging_mixin.py:104} INFO - [2024-09-20 04:04:36,361] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:04:36,660] {logging_mixin.py:104} INFO - [2024-09-20 04:04:36,660] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:04:36,661] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:04:36,677] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.320 seconds
+[2024-09-20 04:05:06,891] {scheduler_job.py:182} INFO - Started process (PID=619) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:05:06,893] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:05:06,893] {logging_mixin.py:104} INFO - [2024-09-20 04:05:06,893] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:05:07,178] {logging_mixin.py:104} INFO - [2024-09-20 04:05:07,178] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:05:07,178] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:05:07,194] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.305 seconds
+[2024-09-20 04:05:37,259] {scheduler_job.py:182} INFO - Started process (PID=644) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:05:37,260] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:05:37,260] {logging_mixin.py:104} INFO - [2024-09-20 04:05:37,260] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:05:37,665] {logging_mixin.py:104} INFO - [2024-09-20 04:05:37,659] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:05:37,666] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:05:37,705] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.452 seconds
+[2024-09-20 04:06:08,012] {scheduler_job.py:182} INFO - Started process (PID=671) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:06:08,014] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:06:08,015] {logging_mixin.py:104} INFO - [2024-09-20 04:06:08,014] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:06:08,312] {logging_mixin.py:104} INFO - [2024-09-20 04:06:08,312] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:06:08,313] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:06:08,328] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.321 seconds
+[2024-09-20 04:06:38,599] {scheduler_job.py:182} INFO - Started process (PID=700) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:06:38,600] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:06:38,600] {logging_mixin.py:104} INFO - [2024-09-20 04:06:38,600] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:06:38,839] {logging_mixin.py:104} INFO - [2024-09-20 04:06:38,838] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:06:38,839] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:06:38,855] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.258 seconds
+[2024-09-20 04:07:09,422] {scheduler_job.py:182} INFO - Started process (PID=727) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:07:09,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:07:09,425] {logging_mixin.py:104} INFO - [2024-09-20 04:07:09,424] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:07:09,749] {logging_mixin.py:104} INFO - [2024-09-20 04:07:09,749] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:07:09,750] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:07:09,773] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.357 seconds
+[2024-09-20 04:07:39,877] {scheduler_job.py:182} INFO - Started process (PID=754) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:07:39,879] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:07:39,880] {logging_mixin.py:104} INFO - [2024-09-20 04:07:39,879] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:07:40,197] {logging_mixin.py:104} INFO - [2024-09-20 04:07:40,197] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:07:40,197] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:07:40,215] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.344 seconds
+[2024-09-20 04:08:10,603] {scheduler_job.py:182} INFO - Started process (PID=781) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:08:10,603] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:08:10,604] {logging_mixin.py:104} INFO - [2024-09-20 04:08:10,604] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:08:10,867] {logging_mixin.py:104} INFO - [2024-09-20 04:08:10,867] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:08:10,868] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:08:10,880] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.279 seconds
+[2024-09-20 04:08:41,697] {scheduler_job.py:182} INFO - Started process (PID=808) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:08:41,699] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:08:41,700] {logging_mixin.py:104} INFO - [2024-09-20 04:08:41,699] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:08:41,882] {logging_mixin.py:104} INFO - [2024-09-20 04:08:41,882] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:08:41,883] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:08:41,893] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.199 seconds
+[2024-09-20 04:09:12,034] {scheduler_job.py:182} INFO - Started process (PID=835) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:09:12,035] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:09:12,036] {logging_mixin.py:104} INFO - [2024-09-20 04:09:12,036] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:09:12,312] {logging_mixin.py:104} INFO - [2024-09-20 04:09:12,311] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:09:12,312] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:09:12,335] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.303 seconds
+[2024-09-20 04:09:43,295] {scheduler_job.py:182} INFO - Started process (PID=862) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:09:43,297] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:09:43,298] {logging_mixin.py:104} INFO - [2024-09-20 04:09:43,298] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:09:43,861] {logging_mixin.py:104} INFO - [2024-09-20 04:09:43,859] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:09:43,862] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:09:43,884] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.599 seconds
+[2024-09-20 04:10:14,479] {scheduler_job.py:182} INFO - Started process (PID=889) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:10:14,480] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:10:14,481] {logging_mixin.py:104} INFO - [2024-09-20 04:10:14,481] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:10:14,711] {logging_mixin.py:104} INFO - [2024-09-20 04:10:14,710] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:10:14,712] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:10:14,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.254 seconds
+[2024-09-20 04:10:45,171] {scheduler_job.py:182} INFO - Started process (PID=916) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:10:45,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:10:45,175] {logging_mixin.py:104} INFO - [2024-09-20 04:10:45,175] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:10:45,462] {logging_mixin.py:104} INFO - [2024-09-20 04:10:45,462] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:10:45,463] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:10:45,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.320 seconds
+[2024-09-20 04:11:16,353] {scheduler_job.py:182} INFO - Started process (PID=943) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:11:16,355] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:11:16,357] {logging_mixin.py:104} INFO - [2024-09-20 04:11:16,357] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:11:16,579] {logging_mixin.py:104} INFO - [2024-09-20 04:11:16,579] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:11:16,580] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:11:16,591] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.243 seconds
+[2024-09-20 04:11:46,649] {scheduler_job.py:182} INFO - Started process (PID=970) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:11:46,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:11:46,651] {logging_mixin.py:104} INFO - [2024-09-20 04:11:46,651] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:11:46,858] {logging_mixin.py:104} INFO - [2024-09-20 04:11:46,857] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:11:46,858] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:11:46,875] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.231 seconds
+[2024-09-20 04:12:17,807] {scheduler_job.py:182} INFO - Started process (PID=997) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:12:17,808] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:12:17,809] {logging_mixin.py:104} INFO - [2024-09-20 04:12:17,809] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:12:18,031] {logging_mixin.py:104} INFO - [2024-09-20 04:12:18,030] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:12:18,031] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:12:18,046] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.244 seconds
+[2024-09-20 04:13:21,750] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:13:21,751] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:13:21,752] {logging_mixin.py:104} INFO - [2024-09-20 04:13:21,752] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:13:22,272] {logging_mixin.py:104} INFO - [2024-09-20 04:13:22,271] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:13:22,273] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:13:22,310] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.565 seconds
+[2024-09-20 04:13:52,854] {scheduler_job.py:182} INFO - Started process (PID=68) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:13:52,855] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:13:52,855] {logging_mixin.py:104} INFO - [2024-09-20 04:13:52,855] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:13:53,221] {logging_mixin.py:104} INFO - [2024-09-20 04:13:53,221] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:13:53,222] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:13:53,243] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.392 seconds
+[2024-09-20 04:14:23,407] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:14:23,408] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:14:23,408] {logging_mixin.py:104} INFO - [2024-09-20 04:14:23,408] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:14:23,699] {logging_mixin.py:104} INFO - [2024-09-20 04:14:23,697] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:14:23,699] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:14:23,714] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.310 seconds
+[2024-09-20 04:14:54,709] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:14:54,710] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:14:54,710] {logging_mixin.py:104} INFO - [2024-09-20 04:14:54,710] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:14:54,871] {logging_mixin.py:104} INFO - [2024-09-20 04:14:54,871] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:14:54,872] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:14:54,882] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.175 seconds
+[2024-09-20 04:15:25,799] {scheduler_job.py:182} INFO - Started process (PID=154) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:15:25,800] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:15:25,801] {logging_mixin.py:104} INFO - [2024-09-20 04:15:25,801] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:15:25,981] {logging_mixin.py:104} INFO - [2024-09-20 04:15:25,981] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:15:25,982] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:15:25,993] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.198 seconds
+[2024-09-20 04:15:56,044] {scheduler_job.py:182} INFO - Started process (PID=185) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:15:56,045] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:15:56,045] {logging_mixin.py:104} INFO - [2024-09-20 04:15:56,045] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:15:56,247] {logging_mixin.py:104} INFO - [2024-09-20 04:15:56,247] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:15:56,248] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:15:56,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.220 seconds
+[2024-09-20 04:16:27,227] {scheduler_job.py:182} INFO - Started process (PID=214) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:16:27,227] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:16:27,228] {logging_mixin.py:104} INFO - [2024-09-20 04:16:27,228] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:16:27,396] {logging_mixin.py:104} INFO - [2024-09-20 04:16:27,394] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:16:27,397] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:16:27,415] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.191 seconds
+[2024-09-20 04:16:58,315] {scheduler_job.py:182} INFO - Started process (PID=241) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:16:58,316] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:16:58,316] {logging_mixin.py:104} INFO - [2024-09-20 04:16:58,316] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:16:58,500] {logging_mixin.py:104} INFO - [2024-09-20 04:16:58,499] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:16:58,500] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:16:58,511] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.199 seconds
+[2024-09-20 04:17:29,508] {scheduler_job.py:182} INFO - Started process (PID=268) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:17:29,510] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:17:29,510] {logging_mixin.py:104} INFO - [2024-09-20 04:17:29,510] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:17:29,677] {logging_mixin.py:104} INFO - [2024-09-20 04:17:29,677] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:17:29,678] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:17:29,690] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.184 seconds
+[2024-09-20 04:18:00,664] {scheduler_job.py:182} INFO - Started process (PID=295) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:18:00,665] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:18:00,665] {logging_mixin.py:104} INFO - [2024-09-20 04:18:00,665] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:18:00,828] {logging_mixin.py:104} INFO - [2024-09-20 04:18:00,827] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:18:00,828] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:18:00,839] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.177 seconds
+[2024-09-20 04:18:30,935] {scheduler_job.py:182} INFO - Started process (PID=322) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:18:30,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:18:30,936] {logging_mixin.py:104} INFO - [2024-09-20 04:18:30,936] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:18:31,103] {logging_mixin.py:104} INFO - [2024-09-20 04:18:31,103] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:18:31,103] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:18:31,115] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.184 seconds
+[2024-09-20 04:19:01,193] {scheduler_job.py:182} INFO - Started process (PID=349) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:19:01,194] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:19:01,195] {logging_mixin.py:104} INFO - [2024-09-20 04:19:01,195] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:19:01,419] {logging_mixin.py:104} INFO - [2024-09-20 04:19:01,418] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:19:01,420] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:19:01,434] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.246 seconds
+[2024-09-20 04:19:32,259] {scheduler_job.py:182} INFO - Started process (PID=376) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:19:32,260] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:19:32,260] {logging_mixin.py:104} INFO - [2024-09-20 04:19:32,260] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:19:32,508] {logging_mixin.py:104} INFO - [2024-09-20 04:19:32,507] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:19:32,508] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:19:32,526] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.272 seconds
+[2024-09-20 04:20:12,900] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:20:12,902] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:20:12,903] {logging_mixin.py:104} INFO - [2024-09-20 04:20:12,903] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:20:13,527] {logging_mixin.py:104} INFO - [2024-09-20 04:20:13,525] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:20:13,528] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:20:13,561] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.669 seconds
+[2024-09-20 04:20:44,126] {scheduler_job.py:182} INFO - Started process (PID=71) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:20:44,127] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:20:44,128] {logging_mixin.py:104} INFO - [2024-09-20 04:20:44,128] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:20:44,382] {logging_mixin.py:104} INFO - [2024-09-20 04:20:44,381] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:20:44,383] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:20:44,410] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.286 seconds
+[2024-09-20 04:21:14,761] {scheduler_job.py:182} INFO - Started process (PID=100) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:21:14,761] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:21:14,762] {logging_mixin.py:104} INFO - [2024-09-20 04:21:14,762] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:21:14,993] {logging_mixin.py:104} INFO - [2024-09-20 04:21:14,993] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:21:14,994] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:21:15,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.247 seconds
+[2024-09-20 04:21:47,808] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:21:47,824] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:21:47,835] {logging_mixin.py:104} INFO - [2024-09-20 04:21:47,834] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:21:50,341] {logging_mixin.py:104} INFO - [2024-09-20 04:21:50,341] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:21:50,342] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:21:50,356] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.598 seconds
+[2024-09-20 04:22:21,101] {scheduler_job.py:182} INFO - Started process (PID=156) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:22:21,102] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:22:21,104] {logging_mixin.py:104} INFO - [2024-09-20 04:22:21,103] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:22:21,585] {logging_mixin.py:104} INFO - [2024-09-20 04:22:21,584] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:22:21,586] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:22:21,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.524 seconds
+[2024-09-20 04:22:51,814] {scheduler_job.py:182} INFO - Started process (PID=183) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:22:51,816] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:22:51,817] {logging_mixin.py:104} INFO - [2024-09-20 04:22:51,816] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:22:52,163] {logging_mixin.py:104} INFO - [2024-09-20 04:22:52,162] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:22:52,164] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:22:52,180] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.371 seconds
+[2024-09-20 04:23:22,350] {scheduler_job.py:182} INFO - Started process (PID=210) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:23:22,351] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:23:22,352] {logging_mixin.py:104} INFO - [2024-09-20 04:23:22,352] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:23:22,600] {logging_mixin.py:104} INFO - [2024-09-20 04:23:22,599] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:23:22,600] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:23:22,613] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.267 seconds
+[2024-09-20 04:23:53,089] {scheduler_job.py:182} INFO - Started process (PID=237) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:23:53,090] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:23:53,091] {logging_mixin.py:104} INFO - [2024-09-20 04:23:53,091] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:23:53,514] {logging_mixin.py:104} INFO - [2024-09-20 04:23:53,514] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:23:53,514] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:23:53,534] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.449 seconds
+[2024-09-20 04:24:24,065] {scheduler_job.py:182} INFO - Started process (PID=264) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:24:24,066] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:24:24,067] {logging_mixin.py:104} INFO - [2024-09-20 04:24:24,067] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:24:24,428] {logging_mixin.py:104} INFO - [2024-09-20 04:24:24,425] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 5, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+[2024-09-20 04:24:24,429] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:24:24,460] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.403 seconds
+[2024-09-20 04:24:54,957] {scheduler_job.py:182} INFO - Started process (PID=291) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:24:54,958] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:24:54,960] {logging_mixin.py:104} INFO - [2024-09-20 04:24:54,959] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:24:55,280] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:24:55,304] {logging_mixin.py:104} INFO - [2024-09-20 04:24:55,303] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:24:55,319] {logging_mixin.py:104} INFO - [2024-09-20 04:24:55,319] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:24:55,335] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.384 seconds
+[2024-09-20 04:25:25,756] {scheduler_job.py:182} INFO - Started process (PID=318) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:25:25,757] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:25:25,758] {logging_mixin.py:104} INFO - [2024-09-20 04:25:25,758] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:25:26,080] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:25:26,106] {logging_mixin.py:104} INFO - [2024-09-20 04:25:26,106] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:25:26,125] {logging_mixin.py:104} INFO - [2024-09-20 04:25:26,125] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:25:26,136] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.385 seconds
+[2024-09-20 04:25:56,356] {scheduler_job.py:182} INFO - Started process (PID=345) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:25:56,357] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:25:56,358] {logging_mixin.py:104} INFO - [2024-09-20 04:25:56,358] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:25:56,629] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:25:56,648] {logging_mixin.py:104} INFO - [2024-09-20 04:25:56,647] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:25:56,663] {logging_mixin.py:104} INFO - [2024-09-20 04:25:56,663] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:25:56,672] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.320 seconds
+[2024-09-20 04:26:26,922] {scheduler_job.py:182} INFO - Started process (PID=372) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:26:26,923] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:26:26,924] {logging_mixin.py:104} INFO - [2024-09-20 04:26:26,924] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:26:27,201] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:26:27,215] {logging_mixin.py:104} INFO - [2024-09-20 04:26:27,215] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:26:27,226] {logging_mixin.py:104} INFO - [2024-09-20 04:26:27,226] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:26:27,236] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.319 seconds
+[2024-09-20 04:26:57,773] {scheduler_job.py:182} INFO - Started process (PID=399) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:26:57,774] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:26:57,775] {logging_mixin.py:104} INFO - [2024-09-20 04:26:57,775] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:26:58,111] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:26:58,140] {logging_mixin.py:104} INFO - [2024-09-20 04:26:58,139] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:26:58,159] {logging_mixin.py:104} INFO - [2024-09-20 04:26:58,159] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:26:58,175] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.406 seconds
+[2024-09-20 04:27:28,373] {scheduler_job.py:182} INFO - Started process (PID=426) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:27:28,375] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:27:28,376] {logging_mixin.py:104} INFO - [2024-09-20 04:27:28,376] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:27:28,648] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:27:28,662] {logging_mixin.py:104} INFO - [2024-09-20 04:27:28,662] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:27:28,673] {logging_mixin.py:104} INFO - [2024-09-20 04:27:28,673] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:27:28,679] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.310 seconds
+[2024-09-20 04:27:58,821] {scheduler_job.py:182} INFO - Started process (PID=453) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:27:58,822] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:27:58,823] {logging_mixin.py:104} INFO - [2024-09-20 04:27:58,823] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:27:59,166] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:27:59,192] {logging_mixin.py:104} INFO - [2024-09-20 04:27:59,192] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:27:59,238] {logging_mixin.py:104} INFO - [2024-09-20 04:27:59,238] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:27:59,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.445 seconds
+[2024-09-20 04:28:29,541] {scheduler_job.py:182} INFO - Started process (PID=480) to work on /opt/airflow/dags/dag.py
+[2024-09-20 04:28:29,542] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-09-20 04:28:29,543] {logging_mixin.py:104} INFO - [2024-09-20 04:28:29,543] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-09-20 04:28:29,813] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fetch_and_store_amazon_books']) retrieved from /opt/airflow/dags/dag.py
+[2024-09-20 04:28:29,827] {logging_mixin.py:104} INFO - [2024-09-20 04:28:29,827] {dag.py:1818} INFO - Sync 1 DAGs
+[2024-09-20 04:28:29,840] {logging_mixin.py:104} INFO - [2024-09-20 04:28:29,840] {dag.py:2273} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2024-09-20T00:00:00+00:00
+[2024-09-20 04:28:29,847] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.310 seconds

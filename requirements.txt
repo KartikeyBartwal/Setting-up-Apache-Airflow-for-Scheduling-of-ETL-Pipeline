@@ -1,0 +1,6 @@
+apache-airflow
+requests
+pandas
+beautifulsoup4
+psycopg2-binary
+bs4
