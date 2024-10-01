@@ -2,7 +2,7 @@ from airflow import DAG
 from datetime import datetime, timedelta
 import requests
 import pandas as pd
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
@@ -81,7 +81,7 @@ def insert_books_data_into_postgres(ti):
     if not book_data:
         raise ValueError("No book data found")
 
-    postgres_hook = PostgresHook(postres_conn_id="books_connection")
+    postgres_hook = PostgresHook(postgres_conn_id="books_connection")
     insert_query = '''
     INSERT INTO books (title, authors, price, rating)
     VALUES (%s, %s, %s, %s)

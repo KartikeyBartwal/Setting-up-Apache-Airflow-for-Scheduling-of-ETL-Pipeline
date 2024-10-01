@@ -1,0 +1,35 @@
+[2024-09-20 09:22:22,742] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fetch_and_store_amazon_books.insert_book_data 2024-09-20T09:16:59.635063+00:00 [queued]>
+[2024-09-20 09:22:22,777] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fetch_and_store_amazon_books.insert_book_data 2024-09-20T09:16:59.635063+00:00 [queued]>
+[2024-09-20 09:22:22,777] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-20 09:22:22,778] {taskinstance.py:1043} INFO - Starting attempt 2 of 2
+[2024-09-20 09:22:22,778] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-20 09:22:22,828] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): insert_book_data> on 2024-09-20T09:16:59.635063+00:00
+[2024-09-20 09:22:22,844] {standard_task_runner.py:52} INFO - Started process 48 to run task
+[2024-09-20 09:22:22,874] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_and_store_amazon_books', 'insert_book_data', '2024-09-20T09:16:59.635063+00:00', '--job-id', '159', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp5pjbkr56', '--error-file', '/tmp/tmpidp1_zuf']
+[2024-09-20 09:22:22,876] {standard_task_runner.py:77} INFO - Job 159: Subtask insert_book_data
+[2024-09-20 09:22:23,026] {logging_mixin.py:104} INFO - Running <TaskInstance: fetch_and_store_amazon_books.insert_book_data 2024-09-20T09:16:59.635063+00:00 [running]> on host 93d2902cde66
+[2024-09-20 09:22:23,100] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=fetch_and_store_amazon_books
+AIRFLOW_CTX_TASK_ID=insert_book_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-09-20T09:16:59.635063+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-09-20T09:16:59.635063+00:00
+[2024-09-20 09:22:23,116] {taskinstance.py:1455} ERROR - No book data found
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag.py", line 82, in insert_books_data_into_postgres
+    raise ValueError("No book data found")
+ValueError: No book data found
+[2024-09-20 09:22:23,121] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=fetch_and_store_amazon_books, task_id=insert_book_data, execution_date=20240920T091659, start_date=20240920T092222, end_date=20240920T092223
+[2024-09-20 09:22:23,193] {local_task_job.py:146} INFO - Task exited with return code 1

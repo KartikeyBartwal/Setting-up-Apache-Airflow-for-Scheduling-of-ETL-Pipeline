@@ -1,0 +1,99 @@
+[2024-09-28 04:19:11,073] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fetch_and_store_amazon_books.fetch_book_data 2024-09-27T00:00:00+00:00 [queued]>
+[2024-09-28 04:19:11,091] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fetch_and_store_amazon_books.fetch_book_data 2024-09-27T00:00:00+00:00 [queued]>
+[2024-09-28 04:19:11,091] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-28 04:19:11,091] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2024-09-28 04:19:11,091] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-28 04:19:11,101] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): fetch_book_data> on 2024-09-27T00:00:00+00:00
+[2024-09-28 04:19:11,107] {standard_task_runner.py:52} INFO - Started process 59 to run task
+[2024-09-28 04:19:11,111] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_and_store_amazon_books', 'fetch_book_data', '2024-09-27T00:00:00+00:00', '--job-id', '340', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpzsjg1h5d', '--error-file', '/tmp/tmpikmbvk5k']
+[2024-09-28 04:19:11,112] {standard_task_runner.py:77} INFO - Job 340: Subtask fetch_book_data
+[2024-09-28 04:19:11,160] {logging_mixin.py:104} INFO - Running <TaskInstance: fetch_and_store_amazon_books.fetch_book_data 2024-09-27T00:00:00+00:00 [running]> on host 93d2902cde66
+[2024-09-28 04:19:11,199] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=fetch_and_store_amazon_books
+AIRFLOW_CTX_TASK_ID=fetch_book_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-09-27T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-09-27T00:00:00+00:00
+[2024-09-28 04:35:39,401] {taskinstance.py:1455} ERROR - ('Connection aborted.', TimeoutError(110, 'Connection timed out'))
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/local/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/local/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/local/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/local/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', TimeoutError(110, 'Connection timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag.py", line 31, in get_amazon_data_books
+    response = requests.get(url, headers=headers)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', TimeoutError(110, 'Connection timed out'))
+[2024-09-28 04:35:39,410] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_and_store_amazon_books, task_id=fetch_book_data, execution_date=20240927T000000, start_date=20240928T041911, end_date=20240928T043539
+[2024-09-28 04:35:39,455] {local_task_job.py:146} INFO - Task exited with return code 1

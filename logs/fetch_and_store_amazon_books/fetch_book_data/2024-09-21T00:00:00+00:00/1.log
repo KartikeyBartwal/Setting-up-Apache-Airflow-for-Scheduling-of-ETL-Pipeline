@@ -1,0 +1,23 @@
+[2024-09-22 02:57:06,163] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fetch_and_store_amazon_books.fetch_book_data 2024-09-21T00:00:00+00:00 [queued]>
+[2024-09-22 02:57:06,354] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fetch_and_store_amazon_books.fetch_book_data 2024-09-21T00:00:00+00:00 [queued]>
+[2024-09-22 02:57:06,356] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-22 02:57:06,356] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2024-09-22 02:57:06,357] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2024-09-22 02:57:06,502] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): fetch_book_data> on 2024-09-21T00:00:00+00:00
+[2024-09-22 02:57:06,561] {standard_task_runner.py:52} INFO - Started process 60 to run task
+[2024-09-22 02:57:06,642] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'fetch_and_store_amazon_books', 'fetch_book_data', '2024-09-21T00:00:00+00:00', '--job-id', '245', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp1j0m5ovl', '--error-file', '/tmp/tmpqc4ov62o']
+[2024-09-22 02:57:06,647] {standard_task_runner.py:77} INFO - Job 245: Subtask fetch_book_data
+[2024-09-22 02:57:07,334] {logging_mixin.py:104} INFO - Running <TaskInstance: fetch_and_store_amazon_books.fetch_book_data 2024-09-21T00:00:00+00:00 [running]> on host 93d2902cde66
+[2024-09-22 02:57:08,060] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=fetch_and_store_amazon_books
+AIRFLOW_CTX_TASK_ID=fetch_book_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-09-21T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-09-21T00:00:00+00:00
+[2024-09-22 02:57:09,879] {logging_mixin.py:104} INFO - Failed to retrieve the page
+[2024-09-22 02:57:10,276] {python.py:118} INFO - Done. Returned value was: None
+[2024-09-22 02:57:10,492] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=fetch_and_store_amazon_books, task_id=fetch_book_data, execution_date=20240921T000000, start_date=20240922T025706, end_date=20240922T025710
+[2024-09-22 02:57:11,204] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-22 02:57:11,381] {local_task_job.py:146} INFO - Task exited with return code 0
